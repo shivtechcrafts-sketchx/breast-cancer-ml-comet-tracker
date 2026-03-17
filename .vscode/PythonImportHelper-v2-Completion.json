@@ -1,0 +1,308 @@
+[
+    {
+        "label": "Experiment",
+        "importPath": "comet_ml",
+        "description": "comet_ml",
+        "isExtraImport": true,
+        "detail": "comet_ml",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_breast_cancer",
+        "importPath": "sklearn.datasets",
+        "description": "sklearn.datasets",
+        "isExtraImport": true,
+        "detail": "sklearn.datasets",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "recall_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "f1_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "roc_curve",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "auc",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "LogisticRegression",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestClassifier",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "GradientBoostingClassifier",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "DecisionTreeClassifier",
+        "importPath": "sklearn.tree",
+        "description": "sklearn.tree",
+        "isExtraImport": true,
+        "detail": "sklearn.tree",
+        "documentation": {}
+    },
+    {
+        "label": "SVC",
+        "importPath": "sklearn.svm",
+        "description": "sklearn.svm",
+        "isExtraImport": true,
+        "detail": "sklearn.svm",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "importPath": "sklearn.pipeline",
+        "description": "sklearn.pipeline",
+        "isExtraImport": true,
+        "detail": "sklearn.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "COMET_API_KEY",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "COMET_API_KEY = os.getenv(\"COMET_API_KEY\")\nCOMET_PROJECT_NAME = \"breast-cancer-benchmark\"\nCOMET_WORKSPACE = \"saurav-kumavat\"\nif not COMET_API_KEY:\n    raise ValueError(\n        \"❌ COMET_API_KEY not found.\\n\"\n        \"Set it in terminal before running.\\n\"\n        \"Windows CMD: set COMET_API_KEY=your_api_key\\n\"\n        \"PowerShell:  $env:COMET_API_KEY='your_api_key'\\n\"\n        \"Mac/Linux:   export COMET_API_KEY=your_api_key\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "COMET_PROJECT_NAME",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "COMET_PROJECT_NAME = \"breast-cancer-benchmark\"\nCOMET_WORKSPACE = \"saurav-kumavat\"\nif not COMET_API_KEY:\n    raise ValueError(\n        \"❌ COMET_API_KEY not found.\\n\"\n        \"Set it in terminal before running.\\n\"\n        \"Windows CMD: set COMET_API_KEY=your_api_key\\n\"\n        \"PowerShell:  $env:COMET_API_KEY='your_api_key'\\n\"\n        \"Mac/Linux:   export COMET_API_KEY=your_api_key\"\n    )",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "COMET_WORKSPACE",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "COMET_WORKSPACE = \"saurav-kumavat\"\nif not COMET_API_KEY:\n    raise ValueError(\n        \"❌ COMET_API_KEY not found.\\n\"\n        \"Set it in terminal before running.\\n\"\n        \"Windows CMD: set COMET_API_KEY=your_api_key\\n\"\n        \"PowerShell:  $env:COMET_API_KEY='your_api_key'\\n\"\n        \"Mac/Linux:   export COMET_API_KEY=your_api_key\"\n    )\n# =========================================================",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "experiment",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "experiment = Experiment(\n    api_key=COMET_API_KEY,\n    project_name=COMET_PROJECT_NAME,\n    workspace=COMET_WORKSPACE\n)\nexperiment.set_name(\"Breast Cancer Multi-Model Benchmark\")\n# Log general project info\nexperiment.log_parameter(\"dataset\", \"sklearn_breast_cancer\")\nexperiment.log_parameter(\"test_size\", 0.2)\nexperiment.log_parameter(\"random_state\", 42)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "data = load_breast_cancer()\nX = pd.DataFrame(data.data, columns=data.feature_names)\ny = pd.Series(data.target)\n# Log dataset info\nexperiment.log_dataset_hash(X)\nexperiment.log_parameter(\"num_samples\", X.shape[0])\nexperiment.log_parameter(\"num_features\", X.shape[1])\n# =========================================================\n# DATA SPLIT\n# =========================================================",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "X = pd.DataFrame(data.data, columns=data.feature_names)\ny = pd.Series(data.target)\n# Log dataset info\nexperiment.log_dataset_hash(X)\nexperiment.log_parameter(\"num_samples\", X.shape[0])\nexperiment.log_parameter(\"num_features\", X.shape[1])\n# =========================================================\n# DATA SPLIT\n# =========================================================\nX_train, X_test, y_train, y_test = train_test_split(",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "y = pd.Series(data.target)\n# Log dataset info\nexperiment.log_dataset_hash(X)\nexperiment.log_parameter(\"num_samples\", X.shape[0])\nexperiment.log_parameter(\"num_features\", X.shape[1])\n# =========================================================\n# DATA SPLIT\n# =========================================================\nX_train, X_test, y_train, y_test = train_test_split(\n    X,",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "models = {\n    \"LogisticRegression\": Pipeline([\n        (\"scaler\", StandardScaler()),\n        (\"model\", LogisticRegression(max_iter=1000, random_state=42))\n    ]),\n    \"RandomForest\": RandomForestClassifier(\n        n_estimators=200,\n        max_depth=10,\n        random_state=42\n    ),",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "results",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "results = []\nbest_model_name = None\nbest_f1 = -1\n# =========================================================\n# TRAIN & EVALUATE MODELS\n# =========================================================\nfor name, model in models.items():\n    print(f\"\\n{'=' * 60}\")\n    print(f\"Training: {name}\")\n    print(f\"{'=' * 60}\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "best_model_name",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "best_model_name = None\nbest_f1 = -1\n# =========================================================\n# TRAIN & EVALUATE MODELS\n# =========================================================\nfor name, model in models.items():\n    print(f\"\\n{'=' * 60}\")\n    print(f\"Training: {name}\")\n    print(f\"{'=' * 60}\")\n    start = time.time()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "best_f1",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "best_f1 = -1\n# =========================================================\n# TRAIN & EVALUATE MODELS\n# =========================================================\nfor name, model in models.items():\n    print(f\"\\n{'=' * 60}\")\n    print(f\"Training: {name}\")\n    print(f\"{'=' * 60}\")\n    start = time.time()\n    model.fit(X_train, y_train)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "results_df",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "results_df = pd.DataFrame(\n    results,\n    columns=[\n        \"Model\",\n        \"Accuracy\",\n        \"Precision\",\n        \"Recall\",\n        \"F1 Score\",\n        \"ROC-AUC\",\n        \"Training Time (sec)\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "results_df",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "results_df = results_df.sort_values(by=\"F1 Score\", ascending=False).reset_index(drop=True)\nprint(f\"\\n{'=' * 60}\")\nprint(\"MODEL COMPARISON\")\nprint(f\"{'=' * 60}\")\nprint(results_df)\n# Log results table\nexperiment.log_table(\n    filename=\"model_comparison.csv\",\n    tabular_data=results_df\n)",
+        "detail": "main",
+        "documentation": {}
+    }
+]
